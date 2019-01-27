@@ -1,0 +1,43 @@
+
+/* ===================================
+  basic colors
+=================================== */
+
+/* grey */
+$gallery: #EDEDED;
+$silver: #CCCCCC;
+$dove-gray: #666666;
+$black: #000000;
+
+
+/* orange */
+$buttercup: #F3AD16;
+$orange-peel: #FF9D00;
+
+/* red */
+$scarlet: #FF3600;
+
+/* green */
+$arlequin: #4AFF00;
+
+/* blue */
+$eastern-blue: #17A2B8;
+$azure-radiance: #007FFF;
+
+/* ===================================
+  elements colors
+=================================== */
+
+$danger: $scarlet;
+$success: $arlequin;
+$warning: $buttercup;
+$info: $eastern-blue;
+
+$theme-01: $orange-peel;
+$theme-02: $silver;
+
+$font-content: $black;
+$font-title-primary: $theme-01;
+$font-title-secondary: $dove-gray;
+
+$border-main: $silver;

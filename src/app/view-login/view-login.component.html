@@ -1,8 +1,8 @@
 <article>
-  <section>
+  <section class="card z-depth-1">
 
-    <form class="form">
-
+    <form class="form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      IMAGEN
       <h5 class="form__header">
         Título del formulario
       </h5>
@@ -11,8 +11,25 @@
         <label for="email" class="form__label">
           Email address
         </label>
-        <input type="email" class="form__input" id="email" placeholder="name@example.com">
+        <input 
+          formControlName="email"
+          type="email" 
+          class="form__input" 
+          id="email">
       </div>
+
+      <div class="form__group">
+        <label for="pwd" class="form__label">
+          Password
+        </label>
+        <input 
+          formControlName="pwd"
+          type="password" 
+          class="form__input" 
+          id="pwd">
+      </div>
+
+      <button type="submit" class="btn btn--success">Login</button>
 
     </form>
 

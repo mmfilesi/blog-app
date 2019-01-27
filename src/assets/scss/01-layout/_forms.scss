@@ -1,0 +1,33 @@
+.form {
+
+  &__group {
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  &__label {
+    font-weight: 900;
+    display: block;
+    color: $theme-02;
+    transition: all 1s ease-out;
+  }
+
+  &__input {
+    color: currentColor;
+    border: none;
+    border-bottom: 1px solid $border-main; 
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    /* width: 100%;
+    max-width: 100%; */
+    vertical-align: bottom;
+    text-align: inherit;
+    transition: all 1s ease-out;
+
+    &:focus {
+      border-bottom: 1px solid red;
+    }
+
+  }
+}
